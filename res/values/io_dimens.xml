@@ -13,14 +13,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
-    <!-- Volume Rocker Wake Support. Some devices do not support (PMU) this.
-        Setting to false will disable Volume Rocker Wake support -->
-    <bool name="config_show_volumeRockerWake">true</bool>
+    <!-- Navbar height -->
+    <integer name="navigation_bar_height_min_percent">65</integer>
+    <integer name="navigation_bar_height_max_percent">120</integer>
+    <integer name="navigation_bar_width_min_percent">65</integer>
+    <integer name="navigation_bar_width_max_percent">120</integer>
 
-    <!-- Fling default long swipe thresholds as percentage of bar width/height-->
-    <item name="config_flingMinLongSwipeThreshold" format="float" type="dimen">0.20</item>
-    <item name="config_flingMaxLongSwipeThreshold" format="float" type="dimen">0.50</item>
+    <!-- Shortcut picker -->
+    <dimen name="shortcut_picker_left_padding">70dip</dimen>
 
 </resources>
