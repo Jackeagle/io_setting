@@ -81,6 +81,8 @@ import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.WriteSettingsDetails;
 import com.android.settings.bluetooth.BluetoothSettings;
 import com.android.settings.io.nav.NavbarSettings;
+import com.android.settings.io.nav.FlingSettings;
+import com.android.settings.io.nav.SmartbarSettings;
 import com.android.settings.dashboard.DashboardCategory;
 import com.android.settings.dashboard.DashboardSummary;
 import com.android.settings.dashboard.DashboardTile;
@@ -359,7 +361,14 @@ public class SettingsActivity extends Activity
             ProcessStatsSummary.class.getName(),
             DrawOverlayDetails.class.getName(),
             WriteSettingsDetails.class.getName(),
+<<<<<<< HEAD
             NavbarSettings.class.getName()
+=======
+            BatteryBarSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName()
+>>>>>>> 49085dd... Navbar: expose Fling and Smarbar settings [1/2]
     };
 
 
